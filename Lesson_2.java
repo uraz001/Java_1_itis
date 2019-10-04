@@ -1,6 +1,3 @@
-// package Lesson_2;
-
-
 //  public, private, protected, defualt 
 
 
@@ -23,7 +20,7 @@ float double
 *
 */
 
-public class HelloWorld {
+public class Lesson_2 {
 
 	public static void main(String [] args) {
 		System.out.println("Hello, World!");
