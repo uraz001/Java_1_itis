@@ -1,6 +1,7 @@
 # Домашки
 ## 1. 
-## 2. Число - <img src="https://latex.codecogs.com/png.latex?\large{\pi}" />
+## 2. Число π
+<img src="https://latex.codecogs.com/png.latex?1-\frac13+\frac15-\frac17+\dots=\sum_{i=0}^\infty\frac{\left(-1\right)^i}{2i+1}=\frac\pi4\text{.}" />
 ## 3. Треугольник
 Для заданного с клавиатуры числа n вывести треугольник:
 ```text
