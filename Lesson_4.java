@@ -1,3 +1,10 @@
+/**
+* Input/Output, Loops
+* @author Shamil K
+* 
+*
+*/
+
 import java.util.Scanner;
 
 class Lesson_4 {

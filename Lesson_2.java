@@ -15,6 +15,7 @@ float double
 
 
 /**
+* Basic syntaxes, primitive types
 * @author Shamil K
 * 
 *

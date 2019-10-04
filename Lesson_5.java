@@ -1,9 +1,17 @@
+/**
+ * String and char operations, Arrays
+ * @author Shamil K
+ * 
+ *
+*/
+
 import java.util.Scanner;
 import java.util.Arrays;
 
 class Lesson_5 {
 
 	public static void main(String [] args) {
+		// // Тип char и операции с ним
 		// char ch1 = 'A';
 		// // char ch2 = 0;
 		// // char ch3;
@@ -21,6 +29,8 @@ class Lesson_5 {
 		
 		// System.out.println((int) ch1);
 		
+		
+		// // Строки и операции с ними
 		// char c = '"';
 		// String str = "Некая строка.";
 		// System.out.println(str.length());
@@ -50,7 +60,7 @@ class Lesson_5 {
 		
 		// str.toUpperCase()
 		
-		
+		// // Перевод строки к примитивным типам
 		// String str = "1234";
 		// int num = Integer.parseInt(str);
 		// // Byte.parseByte()
@@ -73,10 +83,14 @@ class Lesson_5 {
 			// result += str.charAt(pos);
 		// }
 		// System.out.println(result);
+		
+		// // Пример шифрования Цезаря
 		// // n = 3
 		// // ABCDEF
 		// // DEFABC
 		
+		
+		// Массивы и базовые операции
 		int[] marks1;
 		int marks2[];
 		
