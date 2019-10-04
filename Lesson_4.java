@@ -14,11 +14,11 @@ class Lesson_4 {
 		Scanner sc = new Scanner(System.in);
 		
 		int n;
-		System.out.print("Введите значение: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ: ");
 		
 		n = sc.nextInt();
 		
-		// квадрат n*n
+		// РєРІР°РґСЂР°С‚ n*n
 		for (int i = 0; i < n; i++) {
 			if (i % 2 == 0) {
 				System.out.print(" ");
@@ -40,8 +40,8 @@ class Lesson_4 {
 		// %(a)s - string, 
 		// %(a.b)f - double, 
 		// %n - newline
-		// System.out.println("Вы ввели: " + n);
-		// System.out.printf("Вы ввели: int = '%4d', double = '%6.2f'", n, d);
+		// System.out.println("Р’С‹ РІРІРµР»Рё: " + n);
+		// System.out.printf("Р’С‹ РІРІРµР»Рё: int = '%4d', double = '%6.2f'", n, d);
 		// System.out.println();
 		// System.out.printf("%1.5f", Math.PI);
 		

@@ -11,7 +11,7 @@ import java.util.Arrays;
 class Lesson_5 {
 
 	public static void main(String [] args) {
-		// // Тип char и операции с ним
+		// // РўРёРї char Рё РѕРїРµСЂР°С†РёРё СЃ РЅРёРј
 		// char ch1 = 'A';
 		// // char ch2 = 0;
 		// // char ch3;
@@ -30,9 +30,9 @@ class Lesson_5 {
 		// System.out.println((int) ch1);
 		
 		
-		// // Строки и операции с ними
+		// // РЎС‚СЂРѕРєРё Рё РѕРїРµСЂР°С†РёРё СЃ РЅРёРјРё
 		// char c = '"';
-		// String str = "Некая строка.";
+		// String str = "РќРµРєР°СЏ СЃС‚СЂРѕРєР°.";
 		// System.out.println(str.length());
 		// System.out.println(str.charAt(1));
 		// for (int i = 0; i < str.length(); i++) {
@@ -50,7 +50,7 @@ class Lesson_5 {
 		// }
 		
 		// String str = "Java is cool!";
-		// System.out.println(str.substring(0, 3)); // подстрока из строки
+		// System.out.println(str.substring(0, 3)); // РїРѕРґСЃС‚СЂРѕРєР° РёР· СЃС‚СЂРѕРєРё
 		// System.out.println(str.indexOf("is")); 
 		// System.out.println(str.lastIndexOf('a')); 
 		// if (str.toLowerCase().startsWith("Java")) {
@@ -60,7 +60,7 @@ class Lesson_5 {
 		
 		// str.toUpperCase()
 		
-		// // Перевод строки к примитивным типам
+		// // РџРµСЂРµРІРѕРґ СЃС‚СЂРѕРєРё Рє РїСЂРёРјРёС‚РёРІРЅС‹Рј С‚РёРїР°Рј
 		// String str = "1234";
 		// int num = Integer.parseInt(str);
 		// // Byte.parseByte()
@@ -68,7 +68,7 @@ class Lesson_5 {
 		// //	Boolean.parseBoolean("true") 
 		
 		
-		//// перевод от типов к строке
+		//// РїРµСЂРµРІРѕРґ РѕС‚ С‚РёРїРѕРІ Рє СЃС‚СЂРѕРєРµ
 		
 		// // System.out.println(num);
 		// int k = 123;
@@ -84,13 +84,13 @@ class Lesson_5 {
 		// }
 		// System.out.println(result);
 		
-		// // Пример шифрования Цезаря
+		// // РџСЂРёРјРµСЂ С€РёС„СЂРѕРІР°РЅРёСЏ Р¦РµР·Р°СЂСЏ
 		// // n = 3
 		// // ABCDEF
 		// // DEFABC
 		
 		
-		// Массивы и базовые операции
+		// РњР°СЃСЃРёРІС‹ Рё Р±Р°Р·РѕРІС‹Рµ РѕРїРµСЂР°С†РёРё
 		int[] marks1;
 		int marks2[];
 		

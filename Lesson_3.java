@@ -43,9 +43,9 @@ public class Lesson_3 {
 		// }
 
 		absDiff = (sumOdd > sumEven) ? sumOdd - sumEven : sumEven - sumOdd;
-		System.out.println("Сумма нечетных = " + sumOdd);
-		System.out.println("Сумма четных = " + sumEven);
-		System.out.println("Абсолютная разница = " + absDiff);
+		System.out.println("РЎСѓРјРјР° РЅРµС‡РµС‚РЅС‹С… = " + sumOdd);
+		System.out.println("РЎСѓРјРјР° С‡РµС‚РЅС‹С… = " + sumEven);
+		System.out.println("РђР±СЃРѕР»СЋС‚РЅР°СЏ СЂР°Р·РЅРёС†Р° = " + absDiff);
 		
 		// int a = 1 ;	
 		// ++a;
@@ -60,23 +60,23 @@ public class Lesson_3 {
 		
 		int m = 2;
 	
-		if (m == 1) System.out.println("Январь");
-		if (m == 2) System.out.println("февраль");
-		if (m == 3) System.out.println("март");
-		if (m == 4) System.out.println("апрель");
+		if (m == 1) System.out.println("РЇРЅРІР°СЂСЊ");
+		if (m == 2) System.out.println("С„РµРІСЂР°Р»СЊ");
+		if (m == 3) System.out.println("РјР°СЂС‚");
+		if (m == 4) System.out.println("Р°РїСЂРµР»СЊ");
 		
 		switch (m) {
 			case 1:
-				System.out.println("Январь");
+				System.out.println("РЇРЅРІР°СЂСЊ");
 				break;
 			case 2:
-				System.out.println("Февраль");
+				System.out.println("Р¤РµРІСЂР°Р»СЊ");
 				break;
 			case 3:
-				System.out.println("Март");
+				System.out.println("РњР°СЂС‚");
 				break;
 			default:
-				System.out.println("неправильный формат месяца.");
+				System.out.println("РЅРµРїСЂР°РІРёР»СЊРЅС‹Р№ С„РѕСЂРјР°С‚ РјРµСЃСЏС†Р°.");
 				
 		}
 	
