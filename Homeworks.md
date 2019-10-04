@@ -1,6 +1,6 @@
 # Домашки
 ## 1. 
-## 2. Число - <img src="https://latex.codecogs.com/png.latex?\pi" />
+## 2. Число - <img src="https://latex.codecogs.com/png.latex?\section{\pi}" />
 ## 3. Треугольник
 Для заданного с клавиатуры числа n вывести треугольник:
 ```text
