@@ -1,7 +1,9 @@
 # Домашки
 ## 1. 
 ## 2. Число π
-<img src="https://latex.codecogs.com/png.latex?1-\frac13+\frac15-\frac17+\dots=\sum_{i=0}^\infty\frac{\left(-1\right)^i}{2i+1}=\frac\pi4\text{.}" />
+Для заданного с клавиатуры числа n вычислите число π используя ряд Лейбница
+<img src="https://latex.codecogs.com/png.latex?1-\frac13+\frac15-\frac17+\dots=\sum_{i=0}^\infty\frac{\left(-1\right)^i}{2i+1}=\frac\pi4" />.
+Сравните полученное значение со значением ```java Math.PI``` в процентах.
 ## 3. Треугольник
 Для заданного с клавиатуры числа n вывести треугольник:
 ```text
