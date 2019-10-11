@@ -1,20 +1,68 @@
 /**
 * @author Shamil K
 * 
-* ��������� �������.
+* Двумерные массивы.
 * Matrix17
 * Matrix20
 * Matrix27
 * Matrix41
 * Matrix47
-*
+* Matrix61
+* Matrix88
 *
 *
 *
 */
 
+import java.util.Arrays;
+
 public class Lesson_8 {
 
+	public static int [][] matrix;
+	
+	public static int[] sumMultKRow(int k) {
+		int [] sumMult = {0, 1};
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix[0].length; j++) {
+				if (i == k) {
+					sumMult[0] += matrix[i][j];
+					sumMult[1] *= matrix[i][j];
+				}
+			}
+		}
+		return sumMult;
+	}
+
+	public static int[] multCols() {
+		int [] sumMult = new int [matrix[0].length];
+		for (int j = 0; j < matrix[0].length; j++) {
+			sumMult[j] = 1;
+		}
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix[0].length; j++) {
+				sumMult[j] *= matrix[i][j];
+			}
+		}
+		return sumMult;
+	}
+
+	// public static int maxInMinRow() {
+		// int max = 0;
+		// int minRow = 0;
+		// int [] minRowValue = new matrix[i];
+		// for (int i = 0; i < matrix.length; i++) {
+			// for (int j = 0; j < matrix[0].length; j++) {
+				// if (minRowValue < matrix[i][j]) {
+					// minRowValue[i] = matrix[i][j];
+				// }
+			// }
+		// }
+		// for (int i = 0; i < minRowValue.length; i++) {
+			
+		// }
+		
+		// return sumMult;
+	// }
 
 	public static int [][] random2DArray(int m, int n){
 		int [][] array = new int [m][n];
@@ -26,7 +74,7 @@ public class Lesson_8 {
 		return array;
 	}
 	
-	public static String toString(int [][] matr) {
+	public static String matrixToString(int [][] matr) {
 		String result = "";
 		for (int i = 0; i < matr.length; i++) {
 			for (int j = 0; j < matr[0].length; j++) {
@@ -36,9 +84,23 @@ public class Lesson_8 {
 		}
 		return result;
 	}
+	
+	public static String matrixToString() {
+		String result = "";
+		for (int i = 0; i < matrix.length; i++) {
+			for (int j = 0; j < matrix[0].length; j++) {
+				result += String.format("%4d", matrix[i][j]);
+			}
+			result += "\n";
+		}
+		return result;
+	}
 
 	public static void main(String [] args) {
-		System.out.println(toString(random2DArray(5, 5)));
+		matrix = random2DArray(5, 5);
+		System.out.println(matrixToString());
+		System.out.printf("Сумма 3 строки = %d, произведение = %d%n", sumMultKRow(3)[0], sumMultKRow(3)[1]);
+		System.out.println("Произведение столбцов = " + Arrays.toString(multCols()));
 	}
 	
 	
