@@ -2,6 +2,15 @@
 * @author Shamil K
 * 
 * Двумерные массивы.
+* Matrix17
+* Matrix20
+* Matrix27
+* Matrix41
+* Matrix47
+*
+*
+*
+*
 */
 
 public class Lesson_8 {
