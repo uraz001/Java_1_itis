@@ -1,2 +1,4 @@
 # Практика JAVA 1 курс
-https://disk.yandex.ru/client/disk/java_1
+[Ссылка на я.диск](https://yadi.sk/d/u-D7B-jUW4wwYw)
+
+[Домашние работы](../master/Homeworks.md)
