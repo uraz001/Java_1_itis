@@ -44,7 +44,7 @@ Enter the size: 10
 С клавиатуры вводится текст и сдвиг (класс Scanner).
 
 ## 6. Работа с массивами
-Реализовать все предложенные методы в [Lesson_7.java](../blob/master/Lesson_7.java).
+Реализовать все предложенные методы в [Lesson_7.java](../master/Lesson_7.java).
 
 ## 7. Работа с двумерными массивами
-Реализовать все предложенные методы в [Lesson_8.java](../blob/master/Lesson_8.java).
+Реализовать все предложенные методы в [Lesson_8.java](../master/Lesson_8.java).
