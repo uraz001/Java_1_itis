@@ -75,7 +75,33 @@ public class Lesson_8 {
 	}
 	
 	
-	    public static int firstMaxElements(int matr[][]) {
+    
+    public static int firstMaxElements_(int matr[][]) {
+        int col = 0;
+        int[] maxCol = new int[matr[0].length];
+        for (int j = 0; j < matr[0].length; j++) {
+            for (int i = 0; i < matr.length; i++) {
+                for (int k = i + 1; k < matr.length; k++) {
+                    if (matr[i][j] == matr[k][j]) {
+                        maxCol[j]++;
+                    }
+                }
+            }
+        }
+        System.out.println(Arrays.toString(maxCol));
+        int maxCount = maxCol[0];
+        for (int k = 1; k < maxCol.length; k++) {
+            if (maxCount < maxCol[k]) {
+                maxCount = maxCol[k];
+                col = k;
+            }
+        }
+
+        return col;
+    }
+
+	
+    public static int firstMaxElements(int matr[][]) {
         int col = 0;
         int[] maxCol = new int[matr[0].length];
         int countValues[][] = new int[matr.length][matr[0].length];
