@@ -131,6 +131,7 @@ public class Lesson_8 {
 		System.out.println(matrixToString());
 		System.out.printf("Сумма 3 строки = %d, произведение = %d%n", sumMultKRow(3)[0], sumMultKRow(3)[1]);
 		System.out.println("Произведение столбцов = " + Arrays.toString(multCols()));
+       		System.out.println("Номер столбца с максимальным число одинаковых элементов:\n" + firstMaxElements(matrix));
 	}
 	
 	
