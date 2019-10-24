@@ -74,6 +74,36 @@ public class Lesson_8 {
 		return array;
 	}
 	
+	
+	    public static int firstMaxElements(int matr[][]) {
+        int col = 0;
+        int[] maxCol = new int[matr[0].length];
+        int countValues[][] = new int[matr.length][matr[0].length];
+        for (int j = 0; j < matr[0].length; j++) {
+            for (int i = 0; i < matr.length; i++) {
+                for (int k = 0; k < matr.length; k++) {
+                    if (matr[i][j] == matr[k][j]) {
+                        countValues[i][j]++;
+                    }
+                }
+            }
+        }
+        System.out.println(matrixToString(countValues));
+        int ma = countValues[0][0];
+        for (int i = 0; i < countValues.length; i++) {
+            for (int j = 0; j < countValues[0].length; j++) {
+                if (ma < countValues[i][j]) {
+                    ma = countValues[i][j];
+                    col = j;
+                }
+            }
+        }
+        System.out.println(ma);
+
+        return col;
+    }
+	
+	
 	public static String matrixToString(int [][] matr) {
 		String result = "";
 		for (int i = 0; i < matr.length; i++) {
@@ -97,7 +127,7 @@ public class Lesson_8 {
 	}
 
 	public static void main(String [] args) {
-		matrix = random2DArray(5, 5);
+		matrix = random2DArray(12, 5);
 		System.out.println(matrixToString());
 		System.out.printf("Сумма 3 строки = %d, произведение = %d%n", sumMultKRow(3)[0], sumMultKRow(3)[1]);
 		System.out.println("Произведение столбцов = " + Arrays.toString(multCols()));
