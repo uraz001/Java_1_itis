@@ -68,7 +68,7 @@ Enter the size: 10
 [Теория](https://zaochnik.com/spravochnik/matematika/issledovanie-slau/metod-gaussa/)
 Тестовый пример:
 *comming soon...*
-<img src="https://latex.codecogs.com/png.latex?1-\frac13+\frac15-\frac17+\dots=\sum_{i=0}^\infty\frac{\left(-1\right)^i}{2i+1}=\frac\pi4\text{.}" />
+<img src="../master/img/ad.JPG" />
 
 ## 9. Работа со строками
  * String41
