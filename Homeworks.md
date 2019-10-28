@@ -68,7 +68,8 @@ Enter the size: 10
 [Теория](https://zaochnik.com/spravochnik/matematika/issledovanie-slau/metod-gaussa/)
 Тестовый пример:
 *comming soon...*
-<img src="../master/img/ad.JPG" />
+<img src="https://raw.githubusercontent.com/hsh01/Java_1_itis/master/img/ad.JPG" />
+<img src="https://raw.githubusercontent.com/hsh01/Java_1_itis/master/img/gans.JPG" />
 
 ## 9. Работа со строками
  * String41
