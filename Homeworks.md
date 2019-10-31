@@ -65,10 +65,10 @@ Enter the size: 10
 
 
 ## 8. Реализовать метод Гаусса решения СЛАУ.
+[Теория](https://zaochnik.com/spravochnik/matematika/issledovanie-slau/metod-gaussa/)
+Тестовый пример из примера 4.
 
-Тестовый пример:
-*comming soon...*
-
+<img alt="A = \left( \begin{array}{cccc} 3 &amp; 2 &amp; 1 &amp; 1 \\ 1 &amp; -1 &amp; 4 &amp; -1 \\ -2 &amp; -2 &amp; -3 &amp; 1 \\ 1 &amp; 5 &amp; -1 &amp; 2 \\ \end{array} \right), b = \left( \begin{array}{cccc} -2 \\ -1 \\ 9 \\ 4 \\ \end{array} \right)\\ x_1 = -3, x_2 = -1, x_3 = 2, x_4 = 7." src="https://latex.codecogs.com/gif.latex?A%20%3D%20%5Cleft%28%20%5Cbegin%7Barray%7D%7Bcccc%7D%203%20%26%202%20%26%201%20%26%201%20%5C%5C%201%20%26%20-1%20%26%204%20%26%20-1%20%5C%5C%20-2%20%26%20-2%20%26%20-3%20%26%201%20%5C%5C%201%20%26%205%20%26%20-1%20%26%202%20%5C%5C%20%5Cend%7Barray%7D%20%5Cright%29%2C%20b%20%3D%20%5Cleft%28%20%5Cbegin%7Barray%7D%7Bcccc%7D%20-2%20%5C%5C%20-1%20%5C%5C%209%20%5C%5C%204%20%5C%5C%20%5Cend%7Barray%7D%20%5Cright%29%5C%5C%20x_1%20%3D%20-3%2C%20x_2%20%3D%20-1%2C%20x_3%20%3D%202%2C%20x_4%20%3D%207.">
 
 ## 9. Работа со строками
  * String41
