@@ -79,3 +79,12 @@ Enter the size: 10
  * String58
  * String59
  * String69
+
+
+## 10. Регулярные выражения
+Написать регулярное выражение, которое по введенному полному пути файла, определяет является ли файл рисунком. Если является выводит в первой группе название файла, во второй расширение.
+Пример пути:
+"C:\Users\Администратор\Documents\NetBeansProjects\JavaLessonsProject\README.md"
+"C:\Users\Администратор\Documents\NetBeansProjects\JavaLessonsProject\image.jpg"
+
+## 11. Добавить к методу Гаусса, чтение матрицы из файла. [matrix4gauss.txt](../master/src/stud/matrix4gauss.txt).
