@@ -76,7 +76,3 @@ public class Building {
     }
 
 }
-
-class Point2 {
-    
-}

@@ -26,12 +26,12 @@ public class StudRegex {
                 + "adfasfs";
         String regex = "(\\+?\\b\\d{1,2})(\\d{10}\\b)";
 //        "(jpg|png|bmp)"
-        Pattern pattern = Pattern.compile(regex);
+        Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
         
         Matcher matcher = pattern.matcher(str);
         System.out.println(matcher.groupCount());
         while (matcher.find()) {
-            System.out.println(matcher.group());
+            System.out.println(matcher.group(1));
             System.out.printf("код страны: %s, номер тел-на: %s%n", matcher.group(1), matcher.group(2));
         }
         

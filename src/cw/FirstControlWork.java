@@ -1,4 +1,4 @@
-package com.company;
+package cw;
 
 /**
  * Студент %surname% %initials%
@@ -31,6 +31,7 @@ public class FirstControlWork {
      * Первое значение случайное от 0 до 100.
      */
     public static int [] getSevensArray(int limit) {
+        
         return new int [0];
     }
 
