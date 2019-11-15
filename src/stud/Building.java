@@ -12,9 +12,9 @@ package stud;
 public class Building {
 
     // поля класса
-    private String address;
-    private int floorsCount;
-    private double area;
+    protected String address;
+    protected int floorsCount;
+    protected double area;
 
     // конструктор класса
     public Building(){
@@ -44,14 +44,16 @@ public class Building {
     }
 
     public void setFloorsCount(int floorsCount) {
-        if (floorsCount < 1) {
-            System.out.println("Ошибка");
-            System.exit(0);
-        }
+//        if (floorsCount < 1) {
+//            System.out.println("Ошибка");
+//            System.exit(0);
+//        }
         this.floorsCount = floorsCount;
     }
     
-    
+    public final void methodName(){
+        System.out.println("Final method!");
+    }
     
     public void print() {
         System.out.printf("Building address: %s%n"
@@ -61,15 +63,15 @@ public class Building {
     }
 
     public static void main(String[] args) {
-        Building univer = new Building("kremlevskaya ul., d. 35", 0, 400);
+        Building univer = new Building("kremlevskaya ul., d. 35", 10, 400);
         univer.setAddress("kremlevskaya ul., d. 18");
         System.out.println(univer.address);
         System.out.println(univer.getAddress());
         univer.print();
-        Building home = new Building("pr pobedy");
-        home.print();
+//        Building home = new Building("pr pobedy");
+//        home.print();
 //        Point p = new Point();
-        ApartmentBuilding ab = new Building("tekhnicheskaya ul", 5, 100);
+        Building ab = new ApartmentBuilding("tekhnicheskaya ul", 5, 100, 20);
         ab.print();
     }
 
