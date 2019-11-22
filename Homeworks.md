@@ -106,4 +106,4 @@ String model, Color color, int MaxSpeed, double power, double trunkCapacity, Poi
 В классах наследниках добавьте по одному полю к автобусу (например, число пассажирских мест) и к троллейбусу (например, электрическая тяга).
 Перегрузите метод print() у классов наследников.
 
-## 13. Выполнить задания 44-49 из [файла](../blob/master/ITIS-Inf-11-801-1k-1s-Homework.docx).
+## 13. Выполнить задания 44-49 из [файла](../master/ITIS-Inf-11-801-1k-1s-Homework.docx).
