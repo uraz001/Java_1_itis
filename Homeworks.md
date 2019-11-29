@@ -107,3 +107,7 @@ String model, Color color, int MaxSpeed, double power, double trunkCapacity, Poi
 Перегрузите метод print() у классов наследников.
 
 ## 13. Выполнить задания 44-49 из [файла](../master/ITIS-Inf-11-801-1k-1s-Homework.docx).
+
+## 14. 2 задания из 50-56
+## 15. 57
+## 16. 58
