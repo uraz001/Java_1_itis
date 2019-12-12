@@ -6,6 +6,8 @@
 package stud.lesson_15;
 
 import java.io.FileNotFoundException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 public abstract class User {
@@ -31,13 +33,15 @@ public abstract class User {
         this.isLoggedIn = false;
     }
     
-    public boolean login() throws FileNotFoundException {
+    public boolean login() throws FileNotFoundException, PasswordDontMatchExeption {
         CSVReader csv = new CSVReader(FileType.USERS);
         if (csv.getPasswordByLogin(login).equals(password)) {
             isLoggedIn = true;
             return true;
+        } else {
+            throw new PasswordDontMatchExeption("Не верный пароль", password);
         }
-        return false;
+//        return false;
     }
 
     public void logout() {
@@ -61,7 +65,6 @@ class Customer extends User {
         super(login, password, name, email);
     }
 
-    @Override
     public void manageProfile() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -74,9 +77,22 @@ class Manager extends User {
         super(login, password);
     }
 
-    @Override
     public void manageProfile() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
+
+class PasswordDontMatchExeption extends Exception{
+    
+    String password;
+
+    public PasswordDontMatchExeption(String message, String password) {
+        super(message);
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
     }
 }
 
@@ -84,10 +100,14 @@ class Test {
     
     public static void main(String[] args) throws FileNotFoundException {
         String login = "hsh01";
-        String pw = "poiuytre";
+        String pw = "poiuytre2";
         User user = new Customer(login, pw);
-        if (user.login()) 
-            System.out.println("Logged successful.");
+        try {
+            if (user.login())
+                System.out.println("Logged successful.");
+        } catch (PasswordDontMatchExeption ex) {
+            System.err.println(ex.getMessage() + ": " + ex.getPassword());
+        }
     }
     
     
